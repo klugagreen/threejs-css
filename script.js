@@ -542,7 +542,7 @@ function selectPreviewModel(color) {
             scene_preview.add(pointlight_4_preview);
             scene_preview.add(pointlight_5_preview);
 
-            const camera_preview = new THREE.OrthographicCamera(width_preview / - 2, width_preview / 2, height_preview / 2, height_preview / - 2, 1, 500);
+            const camera_preview = new THREE.OrthographicCamera(width_preview / - 2, width_preview / 2, height_preview, height_preview / - 2, 1, 500);
             camera_preview.position.set(0, 0, 150);
 
             const controls_preview = new THREE.OrbitControls(camera_preview, renderer_preview.domElement);

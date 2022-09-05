@@ -1,0 +1,15 @@
+{
+    "status": 0,
+    "msg": "SUCCESS",
+    "menuData": [
+      {
+        "title": "Cover",
+        "value": "cover",
+        "src": "./model/glb/sofa/chair.glb",
+        "color": "#dddddd"
+        
+      }
+      
+    ]
+  }
+  

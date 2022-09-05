@@ -442,7 +442,7 @@ function modelpieceDisplay() {
                         var newScale = parseFloat($("#temp_" + xyz[maxIndex(bbox.max)]).val()) / bbox.max[xyz[maxIndex(bbox.max)]] * initScale[maxIndex(bbox.max)];
                         mesh.scale.set(newScale, newScale, newScale);
                     }
-                    mesh.position.set(0, 0, 0);
+                    mesh.position.set(0, -15, 0);
                     scene_item[index].add(mesh);
                 });
             }

@@ -29,7 +29,7 @@ body {
 #col-preview{
 	width:100% !important;
 	transform: translate(0px, 0px) !important;
-	height: 12vh !important;
+	height: 15vh !important;
 }
 
 #col-panel .col-sample {
@@ -330,7 +330,7 @@ body {
 
 
 #btn_save {
-	margin-top: 5%;
+	margin-top: 6%;
 	margin-left: 24%;
 	width: 8vw;
 	height: 4vh;
